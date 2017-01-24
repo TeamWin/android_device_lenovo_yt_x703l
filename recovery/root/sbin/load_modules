@@ -1,0 +1,7 @@
+#!/sbin/sh
+
+# load crypto modules
+insmod /sbin/qcrypto_module.ko
+insmod /sbin/qdrbg_module.ko
+
+
