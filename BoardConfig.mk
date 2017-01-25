@@ -86,7 +86,7 @@ RECOVERY_SDCARD_ON_DATA := true
 #TW_TARGET_USES_QCOM_BSP := true
 TW_DEFAULT_EXTERNAL_STORAGE := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
-TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/msm_hsusb/gadget/lun0/file000.ssusb/f9200000.dwc3/gadget/lun%d/file"
+TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/msm_hsusb/gadget/lun0/file"
 
 # Asian region languages
 TW_EXTRA_LANGUAGES := true
