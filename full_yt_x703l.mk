@@ -18,11 +18,11 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device.mk
-$(call inherit-product, device/lenovo/yt_x703f/device.mk)
+$(call inherit-product, device/lenovo/yt_x703l/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := full_yt_x703f
-PRODUCT_DEVICE := yt_x703f
+PRODUCT_NAME := full_yt_x703l
+PRODUCT_DEVICE := yt_x703l
 PRODUCT_BRAND := Lenovo
 PRODUCT_MANUFACTURER := Lenovo
-PRODUCT_MODEL := Yoga Tablet 3 Plus
+PRODUCT_MODEL := Yoga Tablet 3 Plus LTE

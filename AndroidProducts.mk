@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_yt_x703f.mk
+    $(LOCAL_DIR)/omni_yt_x703l.mk

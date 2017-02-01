@@ -1,2 +1,2 @@
-add_lunch_combo omni_yt_x703f-userdebug
-add_lunch_combo omni_yt_x703f-eng
+add_lunch_combo omni_yt_x703l-userdebug
+add_lunch_combo omni_yt_x703l-eng

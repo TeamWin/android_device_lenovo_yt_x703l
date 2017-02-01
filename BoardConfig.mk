@@ -55,7 +55,7 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 androidboot.selinux=permissive enforcing=0
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS :=  --kernel_offset 0x08000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
-TARGET_PREBUILT_KERNEL := device/lenovo/yt_x703f/kernel
+TARGET_PREBUILT_KERNEL := device/lenovo/yt_x703l/kernel
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x4000000
@@ -67,14 +67,14 @@ BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
 
 # Recovery
-TARGET_RECOVERY_FSTAB := device/lenovo/yt_x703f/recovery.fstab
+TARGET_RECOVERY_FSTAB := device/lenovo/yt_x703l/recovery.fstab
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := false
 TW_INCLUDE_NTFS_3G := true
 TW_IGNORE_MISC_WIPE_DATA := true
 
 # SE policy
-BOARD_SEPOLICY_DIRS += device/lenovo/yt_x703f/sepolicy
+BOARD_SEPOLICY_DIRS += device/lenovo/yt_x703l/sepolicy
 
 # TWRP
 TW_THEME := portrait_hdpi
